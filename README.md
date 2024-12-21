@@ -1,8 +1,25 @@
-# React + Vite
+# Qest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Qest is a fully responsive web application built using React and Vite. This project replicates a Figma design and demonstrates responsive web design principles. The application consists of three main pages: **Landing Page**, **Pricing Page**, and **Support Page**. It also features a **Feature Dropdown** for a better user experience on both desktop and mobile views.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the deployed app here:
+- [Landing Page](https://kalpanabharath.github.io/Qest/)
+- [Pricing Page](https://kalpanabharath.github.io/Qest/pricing)
+- [Support Page](https://kalpanabharath.github.io/Qest/solutions)
+
+## Features
+
+- **Responsive Design**: The app is fully responsive for both mobile and desktop views.
+- **Landing Page**: Features a clean and modern layout with essential information.
+- **Pricing Page**: Displays pricing plans with a clean, organized layout.
+- **Support Page**: Provides contact and support information.
+- **Feature Dropdown**: Interactive dropdown menu for better user experience.
+
+## Tech Stack
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: A fast development build tool that improves the React development experience.
+- **React Router**: For client-side routing and navigation.
+- **CSS**: For styling, with a focus on responsiveness and modern design practices.
