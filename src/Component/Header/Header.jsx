@@ -43,16 +43,16 @@ const Header = () => {
         >
           <ul className={menuvisiblity ? "visiblemenu" : "invisiblemenu"}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Qest/">Home</Link>
             </li>
             <li>
               Features <img src={downArrow} alt="downarrow" />
             </li>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/Qest/pricing">Pricing</Link>
             </li>
             <li>
-              <Link to="/solutions">Solutions</Link>{" "}
+              <Link to="/Qest/solutions">Solutions</Link>
               <img src={downArrow} alt="downarrow" />
             </li>
           </ul>

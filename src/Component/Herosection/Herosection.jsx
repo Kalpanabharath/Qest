@@ -1,6 +1,6 @@
 import React from "react";
 import "./Herosection.css";
-import Header from "../Header/Header";
+
 import tailright from "../../assets/tail-right.png";
 import fabbuttion from "../../assets/Fab Button.png";
 import Ellipseten from "../../assets/Ellipse 10.png";
@@ -9,7 +9,6 @@ import Ellipseleven from "../../assets/Ellipse 11.png";
 const Herosection = () => {
   return (
     <div className="Herosection">
-      <Header />
       <div className="searchfield">
         <div className="searchtext">
           <p>AI</p>

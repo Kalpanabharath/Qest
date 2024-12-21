@@ -7,10 +7,12 @@ import Chooseplan from "../Chooseplan/Chooseplan.jsx";
 import Manage from "../Manage/Manage.jsx";
 import Questions from "../Questions/Questions.jsx";
 import Footer from "../Footer/Footer.jsx";
+import Header from "../Header/Header.jsx";
 
 const Homepage = () => {
   return (
     <div className="Homepage">
+      <Header />
       <Herosection />
       <Businesstip />
       <Whyrmax />
