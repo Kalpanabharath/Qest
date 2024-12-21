@@ -1,0 +1,86 @@
+.questions {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchbox {
+  margin-top: 50px;
+  background-color: rgba(245, 79, 53, 1);
+  height: 48px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(229, 231, 235, 1);
+}
+.searchbox > input {
+  height: 100%;
+  width: 95%;
+  font-family: "roboto";
+  padding: 5px 10px;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
+  outline: none;
+}
+.searchbox img {
+  padding: 10px;
+}
+.whatrmax,
+.howdoes,
+.howmuch {
+  width: 40%;
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.qeslogo {
+  display: flex;
+  justify-content: space-between;
+}
+.qes {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 16px;
+}
+.whatrmax > p {
+  color: rgba(71, 84, 103, 1);
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.howdoes,
+.howmuch {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.qeslastpara {
+  margin-top: 10px;
+  font-family: "roboto";
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+.qeslastpara > span {
+  color: rgba(0, 0, 238, 1);
+}
+@media screen and (max-width: 700px) {
+  .searchbox {
+    width: 80%;
+  }
+  .whatrmax,
+  .howdoes,
+  .howmuch {
+    width: 80%;
+  }
+  .qeslastpara {
+    text-align: center;
+    padding: 10px;
+  }
+}

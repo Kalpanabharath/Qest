@@ -1,0 +1,137 @@
+.Chooseplan {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choosetextbtn {
+  margin-top: 30px;
+  display: flex;
+  font-family: "roboto";
+  font-size: 16px;
+  gap: 5px;
+}
+.choosetextbtn > button {
+  background-color: rgba(245, 79, 53, 1);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.toogle {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.monthlypara {
+  font-family: "roboto";
+  font-size: 16px;
+}
+.toogle > img {
+  width: 40px;
+  height: auto;
+}
+.save {
+  font-family: "roboto";
+  color: rgba(245, 79, 53, 1);
+  font-weight: 700;
+  background-color: rgb(255, 242, 240);
+  padding: 5px;
+}
+.pricediv {
+  width: 630px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pricediv > * {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+  border: 1px solid rgba(231, 233, 237, 1);
+  border-radius: 8px;
+  padding: 30px;
+}
+.pricediv > * li {
+  list-style: none;
+  padding: 10px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+.pricediv > * li img {
+  margin-right: 10px;
+}
+.pricetype {
+  color: rgba(245, 79, 53, 1);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: "roboto";
+}
+.cost {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(31, 31, 31, 1);
+}
+.cost > span {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.billed {
+  color: rgba(71, 84, 103, 1);
+  font-size: 16px;
+}
+.disable {
+  color: rgba(148, 148, 148, 1);
+}
+.pricediv button {
+  background-color: rgba(254, 241, 239, 1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: "roboto";
+  color: rgba(245, 79, 53, 1);
+  font-weight: 700;
+}
+.nocridit {
+  font-size: 16px;
+  color: rgba(22, 28, 45, 1);
+  font-family: "roboto";
+}
+.Explore {
+  margin-top: 20px;
+  text-decoration: underline;
+  color: rgba(0, 0, 238, 1);
+  font-family: "roboto";
+  font-size: 16px;
+}
+@media screen and (max-width: 640px) {
+  .pricediv {
+    flex-direction: column;
+  }
+  .choosetextbtn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .choosetextbtn > button {
+    width: fit-content;
+  }
+  .headingdiscription {
+    line-height: 30px;
+  }
+}

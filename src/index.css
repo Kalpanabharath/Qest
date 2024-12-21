@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Roboto-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Secularone";
+  src: url("../SecularOne-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Urbanist-Regular";
+  src: url("../Urbanist-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+.headingtext {
+  font-family: "Urbanist-Regular";
+  font-size: clamp(18px, 3vw, 42px);
+  color: rgba(25, 26, 21, 1);
+  text-align: center;
+  font-weight: 700;
+}
+.headingdiscription {
+  font-size: 16px;
+  font-size: clamp(15px, 1vw, 20px);
+  color: rgba(71, 84, 103, 1);
+  text-align: center;
+  margin-top: 10px;
+}
+.headingdiscription > span {
+  color: rgba(161, 15, 15, 1);
+}

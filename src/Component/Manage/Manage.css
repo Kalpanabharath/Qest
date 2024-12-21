@@ -1,0 +1,36 @@
+.Manage {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayapp {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.displayapp > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(9, 9, 9, 1);
+  border-radius: 7px;
+  padding: 10px 20px;
+  gap: 20px;
+}
+.displayapp p {
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: 700;
+}
+@media screen and (max-width: 409px) {
+  .displayapp {
+    flex-direction: column;
+  }
+  .displayapp > * {
+    width: 250px;
+  }
+}

@@ -1,0 +1,206 @@
+.Herosection {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 245);
+  position: relative;
+}
+.Herosection > * {
+  overflow: hidden;
+}
+.searchfield {
+  width: 456px;
+  height: 58px;
+  display: flex;
+  margin-top: 100px;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+}
+.searchtext {
+  width: 71px;
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+  padding: 10px;
+}
+.herosectioninput {
+  width: 382px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  outline: none;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+.searchtext > *:nth-child(1) {
+  font-family: "Urbanist-Regular";
+  font-weight: 600;
+  font-size: 16px;
+  text-align: end;
+}
+.searchtext > *:nth-child(2) {
+  font-family: "Secularone";
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.searchtext > *:nth-child(2) > span {
+  color: rgb(120, 54, 85);
+}
+.heroheading {
+  margin-top: 70px;
+  width: 572px;
+  padding: 18px;
+  text-align: center;
+}
+.heroheading > *:nth-child(1) {
+  font-family: "Urbanist-Regular";
+  font-weight: 700;
+  font-size: 45px;
+}
+.heroheading > *:nth-child(2) {
+  font-family: "Urbanist-Regular";
+  color: rgba(245, 79, 53, 1);
+  font-weight: 700;
+  font-size: 45px;
+}
+#BlackR {
+  color: black;
+  font-family: "Roboto";
+}
+#darkbrown {
+  color: rgb(120, 54, 85);
+  font-family: "Urbanist-Regular";
+}
+.enhancepara {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: rgba(71, 84, 103, 1);
+  line-height: 30px;
+}
+.herobutton {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+.herobutton > button {
+  border-radius: 8px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  padding: 9px 13px;
+}
+.getstarted {
+  background-color: rgba(245, 79, 53, 1);
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  font-family: "Roboto";
+}
+.bookdemo {
+  background-color: white;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+}
+.endbuttiondiv {
+  margin-top: 60px;
+  width: 700px;
+  max-width: 70%;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  gap: 20px;
+}
+.endbuttiondiv > button {
+  padding: 9px 13px;
+  border-radius: 8px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  background-color: white;
+}
+.fabbuttion {
+  position: absolute;
+  margin-top: 500px;
+  right: 10%;
+}
+.Ellipseten {
+  position: absolute;
+  width: 645px;
+  height: 645px;
+  top: -402px;
+  right: 0px;
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+}
+.Ellipseleven {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 99px;
+  left: 0px;
+  z-index: 11;
+}
+
+@media screen and (max-width: 1085px) {
+  .fabbuttion {
+    display: none;
+  }
+  .Ellipseten {
+    width: 545px;
+    height: 545px;
+  }
+  .Ellipseleven {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .endbuttiondiv {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    gap: 10px;
+  }
+  .Ellipseten {
+    width: 245px;
+    height: 495px;
+  }
+  .Ellipseleven {
+    width: 100px;
+    height: 200px;
+  }
+  .heroheading {
+    margin-top: 30px;
+  }
+  .searchfield {
+    width: fit-content;
+    margin-top: 70px;
+  }
+  .heroheading > *:nth-child(1) {
+    font-size: 20px;
+  }
+  .heroheading > *:nth-child(2) {
+    font-size: 20px;
+  }
+  .enhancepara {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .herosectioninput {
+    width: 190px;
+    font-size: 10px;
+  }
+}

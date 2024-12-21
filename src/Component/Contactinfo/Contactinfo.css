@@ -1,0 +1,55 @@
+.Contactinfo {
+  width: 100%;
+  height: fit-content;
+  background: url(../../assets/contactinfobg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 5%;
+  font-family: "roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-size: 20px;
+}
+.contactdivgroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contfirstdivinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contfirstdivinfo > p {
+  font-size: 14px;
+}
+.contfirstdivinfo > h4 {
+  font-size: 34px;
+  font-size: 700;
+}
+.contactdivtwo,
+.contactdivone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.contactdivtwo > p,
+.contactdivone > p {
+  color: rgba(31, 31, 31, 1);
+  font-size: 16px;
+}
+@media screen and (max-width: 680px) {
+  .Contactinfo {
+    flex-direction: column;
+  }
+  .contactdivgroup {
+    flex-direction: column;
+  }
+}

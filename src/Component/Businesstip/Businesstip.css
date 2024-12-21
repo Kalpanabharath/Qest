@@ -1,0 +1,101 @@
+.Businesstip {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+.tipdiv {
+  display: flex;
+  width: 60vw;
+  margin: 60px;
+  min-width: 700px;
+
+  position: relative;
+}
+.singletip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.arrowone,
+.arrowtwo {
+  position: absolute;
+  width: 100px;
+  height: auto;
+}
+.arrowone {
+  left: 25%;
+  top: 20%;
+}
+.arrowtwo {
+  left: 60%;
+  top: 20%;
+}
+.tipimgone,
+.tipimgtwo,
+.tipimgthree {
+  width: 150px;
+  height: auto;
+}
+.tipcontentdiv {
+  position: relative;
+}
+.tipcontent {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.tipcontent {
+  background-color: rgba(246, 246, 247, 1);
+  width: 10px;
+  height: 10px;
+  font-family: "roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: black;
+  padding: 4px;
+  font-weight: 700;
+}
+.singletip h5 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "roboto";
+}
+.singletip p {
+  color: rgba(71, 84, 103, 1);
+  font-size: 16px;
+  padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  .tipdiv {
+    flex-direction: column;
+    width: 100px;
+    gap: 100px;
+    align-items: center;
+  }
+  .singletip {
+    width: 60vw;
+  }
+  .arrowone,
+  .arrowtwo {
+    position: absolute;
+    width: 80px;
+    height: auto;
+  }
+  .arrowone {
+    left: 42%;
+    top: 30%;
+    transform: rotate(90deg);
+  }
+  .arrowtwo {
+    left: 42%;
+    top: 68%;
+    transform: rotate(90deg);
+  }
+}

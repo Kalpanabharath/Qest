@@ -1,0 +1,66 @@
+.Empowering {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empoweringslide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 30px;
+  gap: 20px;
+  margin: o auto;
+}
+.slidediv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  width: 90%;
+}
+.singleslide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+.singleslide > h6 {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 20px;
+}
+.singleslide > p {
+  color: rgba(71, 84, 103, 1);
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 12px;
+}
+.empoweringslide > img {
+  width: 20px;
+  height: 20px;
+}
+.singleslide > img {
+  width: 100%;
+  height: 358px;
+}
+.singleslide span {
+  color: rgba(0, 0, 238, 1) !important;
+}
+@media screen and (max-width: 950px) {
+  .Empowering {
+    padding: 10px;
+  }
+  .empoweringslide > img {
+    display: none;
+  }
+  .slidediv {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .empoweringslide {
+    width: 90%;
+  }
+}
