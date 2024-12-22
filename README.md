@@ -6,8 +6,8 @@ Qest is a fully responsive web application built using React and Vite. This proj
 
 You can view the deployed app here:
 - [Landing Page](https://kalpanabharath.github.io/Qest/)
-- [Pricing Page](https://kalpanabharath.github.io/Qest/pricing)
-- [Support Page](https://kalpanabharath.github.io/Qest/Solutions)
+- [Pricing Page] click pricing navigaion
+- [Support Page] click solutions navigation
 
 ## Features
 
